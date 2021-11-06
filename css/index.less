@@ -1,0 +1,425 @@
+.content{
+    top: 40px;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    .content-left{
+        width: 110px;
+        height: 445px;
+        // background-color: red;
+        float: left;
+        position: fixed;
+        top: 60px;
+        ul{
+        li{
+            width: 110px;
+            height: 40px;
+            font-size: 18px;
+            text-align: center;
+            position:relative ;
+            margin-top: 2px;
+            border-radius: 5px;
+            top: 5px;
+            
+            a{
+                position: relative;
+                top: 8px;
+                color: black;
+            }
+            
+        }
+        li:nth-child(1){
+            background-color: red;
+            // color: white;
+            a{
+                color: white;
+            }
+        }
+    }
+    }
+    .content-right{
+        width: 980px;
+        float: right;
+        margin-top: 27px;
+        position: relative;
+        left: 10px;
+    .content-right-lunbo{
+        width: 600px;
+        float: left;     
+    }
+    .content-main{
+ 
+        ul{
+            position: absolute;
+            top: 310px;
+
+            li{
+                width: 580px;
+                height: 170px;
+                border-bottom:1px solid black ;
+                .content-main-img{
+                    width: 280px;
+                    height: 170px;
+                    float: left;
+                    img{
+                        margin-top: 5px;
+                        width: 280px;
+                        height: 160px;
+                    }
+                }
+                .content-main-wenz{
+                    width: 280px;
+                    height: 170px;
+                    // background: green;
+                    float: right;
+                    .title{
+                        width: 280px;
+                        height: 50px;
+                        // text-align: center;
+                        font-size: 18px;
+                    }
+                    .author{
+                        img{
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        .tips{
+            position: relative;
+            width: 580px;
+            height: 30px;
+            border-radius: 5px;
+            text-align: center;
+            background: #ff8140;
+            
+        }
+    }
+    .content-right-main{
+        width: 340px;
+        height: 2390px;
+        float: right;
+        position: relative;
+        margin-right: 25px;      
+        .content-right-box{
+            width: 340px;
+            height: 326px;
+            background-color: #f2f2f5;
+            float: right;
+            position: relative;
+            .content-right-box-a{
+                width: 300px;
+                height: 286px;
+                margin: 18px auto;
+                background-color: white;
+                position: relative;                
+                .content-right-phone{
+                    width: 40px;
+                    height: 40px;
+                    right: 0;
+                    top: 0;
+                    position: absolute;
+                    background-image: url(../images/sprite_login.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px -150px;                   
+                }
+                .content-right-login{
+                    width: 270px;
+                    height: 250px;
+                    margin: 0 auto;
+
+                    span{
+                        font-size: 12px;
+                        color: #808080;
+                    }
+                    a{
+                        font-size: 12px;
+                    }
+                    // background-color: yellow;
+                    ul{
+                        width: 270px;
+                        height: 50px;
+                        li{
+                            float: left;
+                            width: 135px;
+                            height: 50px;
+                            text-align: center;
+                            line-height: 50px;
+                            color:#808080;
+                            font-size: 14px;
+                        }
+                    }
+                    .content-login-box1{
+                        // display: none;
+                        position: absolute;
+                        width: 270px;
+                        height: 230px;
+                        // background-color: red;
+                        margin-top: -10px;    
+                        border-bottom:1px solid #808080 ;
+                        border-top:1px solid #808080;
+                        input{
+                            width: 210px;
+                            height: 30px;
+                            float: left;
+                            margin-left: 7px;
+                            border: 0;
+                            
+                        }
+                        .login-num{
+                            margin-top: 18px;
+                            width: 270px;
+                            height: 34px;
+                            background-color: white;
+                            border: 1px solid #ccc;
+                            // margin-left: 10px;
+                            .icon-gerentouxiang{
+                                font-size: 18px;
+                                line-height: 34px;
+                                margin-left: 10px;
+                                float: left;
+                            }
+                            
+                        }
+                        .login-pwd{
+                            margin-top: 10px;
+                            width: 270px;
+                            height: 34px;
+                            background-color: white;
+                            border: 1px solid #ccc;
+
+                            // margin-left: 10px;
+                            .icon-suo{
+                                font-size: 18px;
+                                line-height: 34px;
+                                margin-left: 10px;
+                                float: left;
+                            }
+                        }
+                        .login-rem{
+                            width: 270px;
+                            height: 15px;
+                            margin:0 auto;
+                            margin-top: 15px;
+                            // background-color:green;
+                            
+                            input{
+                                width: 12px;
+                                height: 12px;
+                                margin-left: 0;
+                            }
+                            span{
+                                position: relative;
+                                top: -6px;
+                                left: 5px;
+                                // color: #808080;
+                            }
+                            a{
+                                // font-size: 12px;
+                                float: right;
+                                color: #808080;
+                                
+
+                            }
+                            a:hover{
+                                color: #ff8140;
+                            }
+                        }
+                        .login-btn{
+                            width: 270px;
+                            height: 34px;
+                            // margin-left: 10px;
+                            margin-top: 15px;
+                            background: #ff8140;
+                            color: white;
+                            border: 1px solid #ff8140;
+                            font-size: 16px;
+                            box-shadow: 0px 1px 2px rgb(0 0 0 / 25%);
+                            border-radius: 5px;
+                        }
+                        .login-dibu{
+                            width: 270px;
+                            height: 20px;
+                            // background: orange;
+                            margin: 0 auto;
+                            margin-top: 10px;
+                            a{
+                                color: #ff8140;
+                            }
+                        }
+                    }
+                    .content-login-box2{
+                        display: none;
+                        position: absolute;
+                        width: 270px;
+                        height: 230px;
+                        margin-top: -10px;    
+                        border-top:1px solid #808080;
+                        span{
+                            margin-left: 70px;
+                        }
+                        a{
+                            color: #ff8140;
+                        }
+                        .content-login-erwei{
+                            width: 174px;
+                            height: 194px;
+                            // background-color: red;
+                            margin: 0 auto;
+                            margin-top: 20px;
+                            border: 1px solid #f3f3f3;
+                            box-shadow: 0px 1px 2px rgb(0 0 0 / 10%);
+                            img{
+                                width: 150px;
+                                height: 150px;
+                                // margin: 0 auto;
+                                margin-left: 12px;
+                                margin-top: 12px;
+                            }
+                            span{
+                                font-size: 12px;
+                                margin-left: 12px;
+                            }
+                        }
+                    }
+                    .content-login-box3{
+                        display: none;
+                        position: absolute;
+                        width: 270px;
+                        height: 230px;
+                        margin-top: -10px;    
+                        border-top:1px solid #808080;
+                        // background:grayscale(100%);
+                        // background: red;
+                        .yizhao{
+                            width: 130px;
+                            height: 180px;
+                            background: url(../images/yixiang.png);
+                            background-size: cover;
+                            margin-left: 70px;
+                            .box3-wen{
+                                // margin: 0 auto;
+                                margin-top: 15px;
+                                text-align: center;
+                                
+                                img{
+                                    margin-top: 30px;
+                                    width: 60px;
+                                    height: 60px;
+                                    border-radius: 50%;
+    
+                                }
+                            }
+                            span{
+                                position: relative;
+                                font-size: 18px;
+                                margin-left: 37%;
+                                top: 25px;
+                            }
+                            
+                        }
+                        
+                        .box3-fdl{
+                            height: 20px;
+                            ul{
+                                li{
+
+                                    position: relative;
+                                    width: 33%;
+                                    height: 20px;
+                                    float: left;
+                                    top: -5px;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .hover-img{
+            display: none;
+            position: absolute;
+            top: 2px;
+            left: -220px;
+            z-index: 999;
+            width: 264px;
+            height: 372px;
+            background: url(../images/sprite_login.png) no-repeat -290px -150px;
+            // z-index: 3;
+        }
+        .content-right-ht{
+            width: 340px;
+            height: 420px;
+            background: #f2f2f5;
+            margin-top: 346px;
+            span{
+                position: relative;
+                font-size: 18px;
+                top: 15px;
+                margin-left: 20px;
+            }
+            ul{
+                margin-top: 30px;
+                li{
+                    width: 300px;
+                    height: 50px;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    // background: red;
+                    img{
+                        width: 50px;
+                        height: 50px;
+                    }
+                    span{
+                        position: relative;
+                       font-size: 14px;
+                       top: -32px;
+                       margin-left: 0;
+                    }
+                    span:hover{
+                        color: #eb7350;
+                    }
+                    div{
+                        margin-top: -24px;
+                        font-size: 12px;
+                        margin-left: 60px;
+                    }
+                    
+                }
+            }
+            a{
+                top: -10px;
+                position: relative;
+                left: 42%;;
+                font-size: 12px;
+                color:black;
+            }
+            a:hover{
+                color:#eb7350;
+            }
+            
+        }
+        .content-right-rd{
+            .content-right-ht();
+            margin-top: 20px;
+      }
+       }
+    }
+
+}
+.back-top img{
+    width: 60px;
+    height: 60px;
+    display: none;
+    position: fixed;
+    right:166px;
+    bottom: 50px;
+    z-index: 2;
+}
+
+

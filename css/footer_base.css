@@ -1,0 +1,136 @@
+.footer {
+  margin-top: 80px;
+  width: 100%;
+  height: 314px;
+  position: relative;
+}
+.footer .footer-a {
+  height: 123px;
+  margin: 0 auto;
+  width: 920px;
+  padding: 20px 0 10px 80px;
+  position: relative;
+}
+.footer .footer-a .list {
+  float: left;
+  display: inline;
+  margin: 0 60px 0 0;
+}
+.footer .footer-a .list dt {
+  font-size: 16px;
+  padding: 0 0 15px;
+  white-space: nowrap;
+  width: 138px;
+  overflow: hidden;
+}
+.footer .footer-a .list dd a {
+  width: 48px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0 20px 5px 0;
+  vertical-align: top;
+  color: #808080;
+  font-size: 12px;
+}
+.footer .footer-a .list dd .list-md {
+  width: 84px;
+}
+.footer .footer-a .list .list-erwei img {
+  width: 79px;
+  height: 79px;
+}
+.footer .footer-a .list .list-text {
+  width: 109px;
+  overflow: hidden;
+  margin-right: 0px;
+  display: inline-block;
+  margin: 0 20px 5px 0;
+  vertical-align: top;
+  color: #808080;
+  text-decoration: none;
+  font-size: 12px;
+}
+.footer .footer-b {
+  width: 100%;
+  height: 161px;
+  background-color: #f2f2f5;
+  overflow: hidden;
+}
+.footer .footer-b p {
+  margin-bottom: 7px;
+  text-align: center;
+}
+.footer .footer-b p a .icon-weibo {
+  background-position: -50px -300px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/icon.png);
+  vertical-align: text-top;
+  margin-right: 1px;
+  margin-top: 3px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.footer .footer-b p a .icon-gongan {
+  width: 20px;
+  height: 20px;
+  background-position: -100px -300px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(../images/icon.png);
+  background-repeat: no-repeat;
+}
+.footer .footer-b p a span {
+  font-size: 12px;
+}
+.footer .footer-b p span {
+  font-size: 12px;
+  margin-right: 15px;
+  color: #808080;
+  text-decoration: none;
+  line-height: 1em;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 20px 0 45px;
+}
+.footer .footer-b p select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  -webkit-writing-mode: horizontal-tb !important;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  background-color: -internal-light-dark(#ffffff, #3b3b3b);
+  cursor: default;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  border-radius: 0px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: -internal-light-dark(#767676, #858585);
+  border-image: initial;
+  margin-bottom: 10px;
+}
+.footer .footer-b p select option {
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+.footer .footer-b p:nth-child(1) {
+  height: 20px;
+  position: relative;
+  margin-top: 15px;
+}

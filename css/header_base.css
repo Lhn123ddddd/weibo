@@ -1,0 +1,147 @@
+header {
+  box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.3), 0 0 6px 2px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.94);
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+header .top {
+  width: 100%;
+  height: 1.5px;
+  background-color: red;
+}
+header nav {
+  width: 1280px;
+  height: 52px;
+  margin: 0 auto;
+}
+header nav .nav-left {
+  width: 610px;
+  height: 52px;
+  float: left;
+}
+header nav .nav-left .nav-left-logo {
+  width: 140px;
+  height: 52px;
+  float: left;
+  text-align: center;
+}
+header nav .nav-left .nav-left-logo img {
+  display: inline-block;
+  margin-top: 10px;
+}
+header nav .nav-left .nav-left-input {
+  width: 468px;
+  height: 30px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-top: 10px;
+  position: relative;
+  background-color: #f2f2f5;
+}
+header nav .nav-left .nav-left-input input {
+  margin-left: 10px;
+  height: 30px;
+  width: 420px;
+  border: 0;
+  background-color: #f2f2f5;
+}
+header nav .nav-left .nav-left-input span {
+  position: relative;
+  font-size: 20px;
+  margin-left: 5px;
+  top: 4px;
+}
+header nav .nav-left .nav-left-input .nav-left-dropdown {
+  position: absolute;
+  width: 468px;
+  height: 300px;
+  border: 1px solid #ccc;
+  right: -1px;
+  top: 34px;
+  z-index: 2;
+  background-color: white;
+  display: none;
+  box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+header nav .nav-left .nav-left-input .nav-left-dropdown ul {
+  margin-left: 10px;
+}
+header nav .nav-left .nav-left-input .nav-left-dropdown ul > li a {
+  font-size: 12px;
+  color: #fa7d3c;
+}
+header nav .nav-left .nav-left-input .nav-left-dropdown ul li {
+  margin-top: 10px;
+  font-size: 12px;
+  position: relative;
+}
+header nav .nav-left .nav-left-input .nav-left-dropdown ul li div:nth-child(1) {
+  width: 14px;
+  height: 14px;
+  background-color: #ccc;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+}
+header nav .nav-left .nav-left-input .nav-left-dropdown ul li .fei {
+  background-color: red !important;
+}
+header nav .nav-left .nav-left-input .nav-left-dropdown ul li .re {
+  background-color: orange !important;
+}
+header nav .nav-left .nav-left-input .nav-left-dropdown ul li span {
+  position: relative;
+  font-size: 12px;
+  top: -1px;
+}
+header nav .nav-left .nav-left-input .nav-left-dropdown ul li div:nth-child(3) {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  float: right;
+  margin-right: 10px;
+}
+header nav .nav-right {
+  position: relative;
+  width: 670px;
+  height: 52px;
+  float: left;
+}
+header nav .nav-right ul {
+  margin-left: 200px;
+  margin-top: 10px;
+}
+header nav .nav-right ul li {
+  position: relative;
+  height: 40px;
+  line-height: 26px;
+  width: 78px;
+  float: left;
+}
+header nav .nav-right ul li a {
+  position: relative;
+  top: -1px;
+  color: black;
+}
+header nav .nav-right ul li .zhuti-dropdown {
+  width: 60px;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 0;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  border-top: 0;
+  display: none;
+  z-index: 10;
+}
+header nav .nav-right ul li .zhuti-dropdown li {
+  height: 26px;
+  width: 60px;
+  color: black;
+}
+header nav .nav-right ul li:nth-child(6) {
+  position: relative;
+  right: 8px;
+}

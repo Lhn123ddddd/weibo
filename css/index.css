@@ -1,0 +1,419 @@
+.content {
+  top: 40px;
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+.content .content-left {
+  width: 110px;
+  height: 445px;
+  float: left;
+  position: fixed;
+  top: 60px;
+}
+.content .content-left ul li {
+  width: 110px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  position: relative ;
+  margin-top: 2px;
+  border-radius: 5px;
+  top: 5px;
+}
+.content .content-left ul li a {
+  position: relative;
+  top: 8px;
+  color: black;
+}
+.content .content-left ul li:nth-child(1) {
+  background-color: red;
+}
+.content .content-left ul li:nth-child(1) a {
+  color: white;
+}
+.content .content-right {
+  width: 980px;
+  float: right;
+  margin-top: 27px;
+  position: relative;
+  left: 10px;
+}
+.content .content-right .content-right-lunbo {
+  width: 600px;
+  float: left;
+}
+.content .content-right .content-main ul {
+  position: absolute;
+  top: 310px;
+}
+.content .content-right .content-main ul li {
+  width: 580px;
+  height: 170px;
+  border-bottom: 1px solid black ;
+}
+.content .content-right .content-main ul li .content-main-img {
+  width: 280px;
+  height: 170px;
+  float: left;
+}
+.content .content-right .content-main ul li .content-main-img img {
+  margin-top: 5px;
+  width: 280px;
+  height: 160px;
+}
+.content .content-right .content-main ul li .content-main-wenz {
+  width: 280px;
+  height: 170px;
+  float: right;
+}
+.content .content-right .content-main ul li .content-main-wenz .title {
+  width: 280px;
+  height: 50px;
+  font-size: 18px;
+}
+.content .content-right .content-main ul li .content-main-wenz .author img {
+  width: 16px;
+  height: 16px;
+}
+.content .content-right .content-main .tips {
+  position: relative;
+  width: 580px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  background: #ff8140;
+}
+.content .content-right .content-right-main {
+  width: 340px;
+  height: 2390px;
+  float: right;
+  position: relative;
+  margin-right: 25px;
+}
+.content .content-right .content-right-main .content-right-box {
+  width: 340px;
+  height: 326px;
+  background-color: #f2f2f5;
+  float: right;
+  position: relative;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a {
+  width: 300px;
+  height: 286px;
+  margin: 18px auto;
+  background-color: white;
+  position: relative;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-phone {
+  width: 40px;
+  height: 40px;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background-image: url(../images/sprite_login.png);
+  background-repeat: no-repeat;
+  background-position: 0px -150px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login {
+  width: 270px;
+  height: 250px;
+  margin: 0 auto;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login span {
+  font-size: 12px;
+  color: #808080;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login a {
+  font-size: 12px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login ul {
+  width: 270px;
+  height: 50px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login ul li {
+  float: left;
+  width: 135px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #808080;
+  font-size: 14px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 {
+  position: absolute;
+  width: 270px;
+  height: 230px;
+  margin-top: -10px;
+  border-bottom: 1px solid #808080;
+  border-top: 1px solid #808080;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 input {
+  width: 210px;
+  height: 30px;
+  float: left;
+  margin-left: 7px;
+  border: 0;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-num {
+  margin-top: 18px;
+  width: 270px;
+  height: 34px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-num .icon-gerentouxiang {
+  font-size: 18px;
+  line-height: 34px;
+  margin-left: 10px;
+  float: left;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-pwd {
+  margin-top: 10px;
+  width: 270px;
+  height: 34px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-pwd .icon-suo {
+  font-size: 18px;
+  line-height: 34px;
+  margin-left: 10px;
+  float: left;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-rem {
+  width: 270px;
+  height: 15px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-rem input {
+  width: 12px;
+  height: 12px;
+  margin-left: 0;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-rem span {
+  position: relative;
+  top: -6px;
+  left: 5px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-rem a {
+  float: right;
+  color: #808080;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-rem a:hover {
+  color: #ff8140;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-btn {
+  width: 270px;
+  height: 34px;
+  margin-top: 15px;
+  background: #ff8140;
+  color: white;
+  border: 1px solid #ff8140;
+  font-size: 16px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-dibu {
+  width: 270px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box1 .login-dibu a {
+  color: #ff8140;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box2 {
+  display: none;
+  position: absolute;
+  width: 270px;
+  height: 230px;
+  margin-top: -10px;
+  border-top: 1px solid #808080;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box2 span {
+  margin-left: 70px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box2 a {
+  color: #ff8140;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box2 .content-login-erwei {
+  width: 174px;
+  height: 194px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid #f3f3f3;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box2 .content-login-erwei img {
+  width: 150px;
+  height: 150px;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box2 .content-login-erwei span {
+  font-size: 12px;
+  margin-left: 12px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box3 {
+  display: none;
+  position: absolute;
+  width: 270px;
+  height: 230px;
+  margin-top: -10px;
+  border-top: 1px solid #808080;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box3 .yizhao {
+  width: 130px;
+  height: 180px;
+  background: url(../images/yixiang.png);
+  background-size: cover;
+  margin-left: 70px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box3 .yizhao .box3-wen {
+  margin-top: 15px;
+  text-align: center;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box3 .yizhao .box3-wen img {
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box3 .yizhao span {
+  position: relative;
+  font-size: 18px;
+  margin-left: 37%;
+  top: 25px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box3 .box3-fdl {
+  height: 20px;
+}
+.content .content-right .content-right-main .content-right-box .content-right-box-a .content-right-login .content-login-box3 .box3-fdl ul li {
+  position: relative;
+  width: 33%;
+  height: 20px;
+  float: left;
+  top: -5px;
+}
+.content .content-right .content-right-main .hover-img {
+  display: none;
+  position: absolute;
+  top: 2px;
+  left: -220px;
+  z-index: 999;
+  width: 264px;
+  height: 372px;
+  background: url(../images/sprite_login.png) no-repeat -290px -150px;
+}
+.content .content-right .content-right-main .content-right-ht {
+  width: 340px;
+  height: 420px;
+  background: #f2f2f5;
+  margin-top: 346px;
+}
+.content .content-right .content-right-main .content-right-ht span {
+  position: relative;
+  font-size: 18px;
+  top: 15px;
+  margin-left: 20px;
+}
+.content .content-right .content-right-main .content-right-ht ul {
+  margin-top: 30px;
+}
+.content .content-right .content-right-main .content-right-ht ul li {
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.content .content-right .content-right-main .content-right-ht ul li img {
+  width: 50px;
+  height: 50px;
+}
+.content .content-right .content-right-main .content-right-ht ul li span {
+  position: relative;
+  font-size: 14px;
+  top: -32px;
+  margin-left: 0;
+}
+.content .content-right .content-right-main .content-right-ht ul li span:hover {
+  color: #eb7350;
+}
+.content .content-right .content-right-main .content-right-ht ul li div {
+  margin-top: -24px;
+  font-size: 12px;
+  margin-left: 60px;
+}
+.content .content-right .content-right-main .content-right-ht a {
+  top: -10px;
+  position: relative;
+  left: 42%;
+  font-size: 12px;
+  color: black;
+}
+.content .content-right .content-right-main .content-right-ht a:hover {
+  color: #eb7350;
+}
+.content .content-right .content-right-main .content-right-rd {
+  width: 340px;
+  height: 420px;
+  background: #f2f2f5;
+  margin-top: 346px;
+  margin-top: 20px;
+}
+.content .content-right .content-right-main .content-right-rd span {
+  position: relative;
+  font-size: 18px;
+  top: 15px;
+  margin-left: 20px;
+}
+.content .content-right .content-right-main .content-right-rd ul {
+  margin-top: 30px;
+}
+.content .content-right .content-right-main .content-right-rd ul li {
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.content .content-right .content-right-main .content-right-rd ul li img {
+  width: 50px;
+  height: 50px;
+}
+.content .content-right .content-right-main .content-right-rd ul li span {
+  position: relative;
+  font-size: 14px;
+  top: -32px;
+  margin-left: 0;
+}
+.content .content-right .content-right-main .content-right-rd ul li span:hover {
+  color: #eb7350;
+}
+.content .content-right .content-right-main .content-right-rd ul li div {
+  margin-top: -24px;
+  font-size: 12px;
+  margin-left: 60px;
+}
+.content .content-right .content-right-main .content-right-rd a {
+  top: -10px;
+  position: relative;
+  left: 42%;
+  font-size: 12px;
+  color: black;
+}
+.content .content-right .content-right-main .content-right-rd a:hover {
+  color: #eb7350;
+}
+.back-top img {
+  width: 60px;
+  height: 60px;
+  display: none;
+  position: fixed;
+  right: 166px;
+  bottom: 50px;
+  z-index: 2;
+}
